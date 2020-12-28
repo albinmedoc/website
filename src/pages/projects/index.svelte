@@ -3,8 +3,17 @@
 
     let projects = [
         {
+            project_name: 'Pamek VVS',
+            techniques: 'Svelte, Sapper, Node.js, Express',
+            description:
+                'Pamek är en nystartad VVS-firma. Hemsidan som skapades åt dem möjliggör för enklare marknadsföring. Deras olika tjänster framgår tydligt, och formuläret på hemsidan gör det enkelt för kunder att ställa frågor och be om offerter.',
+            image_url: '/images/projects/pamek/preview.png',
+            bg_color: '#5e5e5e',
+            header_color: '#fff',
+        },
+        {
             project_name: 'The Coffee Lounge',
-            techniques: 'Node.js, Express',
+            techniques: 'Svelte, Sapper, Node.js, Express',
             description:
                 'The Coffee Lounge är ett lokalt Café i Staffanstorp. Deras önskemål var att marknadsföra sig över internet. Detta inkluderade skapande av en hemsida, SEO optimering samt hosting och driftsättning. På hemsidan ville dem bland annat att menyn skulle synas & möjlighet till att kunna förbeställa luncher.',
             image_url: '/images/projects/the_coffee_lounge/preview.png',
@@ -13,7 +22,7 @@
         },
         {
             project_name: 'Godisbilen',
-            techniques: 'Python Flask',
+            techniques: 'Python, Flask',
             description:
                 'Godisbilen är ett företag som arbetar i delar av Skåne. Detta företag utför hemleverans av godis under helger. Deras önskemål var att ha en hemsida där man kan beställa hem bilen och därmed handla sitt godis direkt från bilen. Hemsidan inkluderar även att se sortiment, öppettider, information och ett kontaktformulär. När en beställning läggs får kunden direkt en beräknad tid när bilen kommer anlända. Det skapades även ett gränssnitt anpassat för chafförernam för att underlätta deras arbete. Denna visar en karta vart man ska köra, när man ska vara på plats, samt kontaktuppgifter till kunden.',
             image_url: '/images/projects/godisbilen/preview.png',
@@ -22,7 +31,7 @@
         },
         {
             project_name: 'Destination Line',
-            techniques: 'Python Flask',
+            techniques: 'Python, Flask',
             description:
                 'Mitt arbete med Destination Line skedde under deras uppstart. Deras önskemål var att ha en plattform där man kunde dela med sig av sina semesterbilder till allmänheten. Bilderna laddades upp i olika album och hade ett land och stad kopplat till sig. Plattformen tillät även användare att följa varandra och därmed få upp deras album i flödet. En sökfunktion skapades för att söka efter både personer, land och stad.',
             image_url: '/images/projects/destination_line/preview.png',
