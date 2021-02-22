@@ -13,6 +13,15 @@
         background-color: #f52735;
         vertical-align: middle;
     }
+    .badge-container > svg {
+        width: 45px;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    svg * {
+        fill: #fff;
+    }
 
     .services .service-title h3 {
         vertical-align: middle;
@@ -82,6 +91,9 @@
         <div class="item">
             <div class="service-title">
                 <div class="badge-container">
+                    <svg viewBox="0 0 100 100">
+                        <use xlink:href="/images/icons.svg#code-tags" href="/images/icons.svg#code-tags"></use>
+                    </svg>
                 </div>
                 <h3>Webbsideproduktion</h3>
             </div>
@@ -95,6 +107,9 @@
         <div class="item">
             <div class="service-title">
                 <div class="badge-container">
+                    <svg viewBox="0 0 100 100">
+                        <use xlink:href="/images/icons.svg#email" href="/images/icons.svg#email"></use>
+                    </svg>
                 </div>
                 <h3>E-postmarknadsföring</h3>
             </div>
@@ -109,6 +124,9 @@
         <div class="item">
             <div class="service-title">
                 <div class="badge-container">
+                    <svg viewBox="0 0 100 100">
+                        <use xlink:href="/images/icons.svg#server" href="/images/icons.svg#server"></use>
+                    </svg>
                 </div>
                 <h3>Hosting och drift</h3>
             </div>
@@ -121,6 +139,9 @@
         <div class="item">
             <div class="service-title">
                 <div class="badge-container">
+                    <svg viewBox="0 0 100 100">
+                        <use xlink:href="/images/icons.svg#search" href="/images/icons.svg#search"></use>
+                    </svg>
                 </div>
                 <h3>Sökmotoroptimering</h3>
             </div>
