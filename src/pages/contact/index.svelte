@@ -69,7 +69,6 @@ blockquote, em {
 
     <h3>Företaget</h3>
     <h4>Albin Médoc</h4>
-    <p>Org. nr. 991106-2470</p>
     <p>
         <em>Godkänd för FA-skatt.</em>
     </p>
