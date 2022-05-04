@@ -1,7 +1,17 @@
-<script>
-    import Project from './Project.svelte';
+<script lang="ts">
+    import Project from '../components/Project.svelte';
 
-    let projects = [
+    interface Project {
+        project_name: string;
+        techniques: string;
+        description: string;
+        website_url?: string;
+        image_url: string;
+        bg_color: string;
+        header_color: string;
+    }
+
+    let projects: Project[] = [
         {
             project_name: 'PlanMan Malmö AB',
             techniques: 'Svelte, Sapper, Node.js, Express',
@@ -27,7 +37,6 @@
             techniques: 'Svelte, Sapper, Node.js, Express',
             description:
                 'The Coffee Lounge är ett lokalt Café i Staffanstorp. Deras önskemål var att marknadsföra sig över internet. Detta inkluderade skapande av en hemsida, SEO optimering samt hosting och driftsättning. På hemsidan ville dem bland annat att menyn skulle synas & möjlighet till att kunna förbeställa luncher.',
-            website_url: 'http://www.the-coffeelounge.se',
             image_url: '/images/projects/the_coffee_lounge/preview.png',
             bg_color: '#875c2a',
             header_color: '#000',
@@ -37,7 +46,6 @@
             techniques: 'Python, Flask',
             description:
                 'Godisbilen är ett företag som arbetar i delar av Skåne. Detta företag utför hemleverans av godis under helger. Deras önskemål var att ha en hemsida där man kan beställa hem bilen och därmed handla sitt godis direkt från bilen. Hemsidan inkluderar även att se sortiment, öppettider, information och ett kontaktformulär. När en beställning läggs får kunden direkt en beräknad tid när bilen kommer anlända. Det skapades även ett gränssnitt anpassat för chafförernam för att underlätta deras arbete. Denna visar en karta vart man ska köra, när man ska vara på plats, samt kontaktuppgifter till kunden.',
-            website_url: 'http://www.godisbilen.nu',
             image_url: '/images/projects/godisbilen/preview.png',
             bg_color: '#e86ed0',
             header_color: '#b1e8ed',

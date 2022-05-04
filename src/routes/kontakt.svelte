@@ -1,7 +1,3 @@
-<script>
-    let pageName = 'Contact';
-</script>
-
 <style>
     .container {
         max-width: 80rem;
@@ -46,7 +42,7 @@ blockquote, em {
         <br>
         <strong>Då har du kommit rätt, jag hjälper gärna till!</strong>
     </h3>
-    <p>Du är varmt välkommen att kontakta mig – oavsett om det gäller ett projekt som önskas genomföras eller endast diskuteras.</p>
+    <p>Du är varmt välkommen att kontakta mig - oavsett om det gäller ett projekt som önskas genomföras eller endast diskuteras.</p>
     <p>
         <em>
             Jag tar mig an projekt och uppdrag från både företag och

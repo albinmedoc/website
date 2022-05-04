@@ -1,11 +1,11 @@
-<script>
-    export let project_name;
-    export let techniques;
-    export let description;
-    export let website_url = undefined;
-    export let image_url;
-    export let bg_color;
-    export let header_color;
+<script lang="ts">
+    export let project_name: string;
+    export let techniques: string;
+    export let description: string;
+    export let website_url: string = undefined;
+    export let image_url: string;
+    export let bg_color: string;
+    export let header_color: string;
 </script>
 
 <style>

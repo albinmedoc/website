@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
 <head>
 	<meta charset='utf-8'>
@@ -10,6 +10,7 @@
 	<link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap">
 	<link rel='stylesheet' href='/global.css'>
 	<link rel='stylesheet' href='/build/bundle.css'>
+	%sapper.base%
 
 	<meta property="og:title" content="Albin Médoc">
 	<meta property="og:site_name" content="Albin Médoc">
@@ -21,9 +22,13 @@
 	<meta name="twitter:card" content="https://www.albinmedoc.se/images/preview.png">
 	<meta name="twitter:image:alt" content="Albin Médoc förhandsvisning">
 
-	<script defer src='/build/bundle.js'></script>
-</head>
+	%sapper.scripts%
 
+	%sapper.styles%
+
+	%sapper.head%
+</head>
 <body>
+	<div id="sapper">%sapper.html%</div>
 </body>
 </html>
