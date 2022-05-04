@@ -146,7 +146,7 @@
                 <h3>Sökmotoroptimering</h3>
             </div>
             <p>
-                Jag ökar förutsättningarna att ranka högre i sökresultaten för utvalda sökord i olika sökmoterer, som exempelis Google, Bing eller Yahoo.
+                Jag ökar förutsättningarna att ranka högre i sökresultaten för utvalda sökord i olika sökmoterer, som exempelvis Google, Bing eller Yahoo.
             </p>
         </div>
     </div>
